@@ -69,3 +69,7 @@ common/autoinstallers/*/.npmrc
 
 # private projects
 apps/cloud
+
+# IDE
+.idea/
+.vscode/

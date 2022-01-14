@@ -2,6 +2,8 @@
 **/*.svg
 **/*.ejs
 **/*.html
+**/*.json
+
 
 # Rush files
 common/changes/
