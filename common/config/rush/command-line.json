@@ -21,6 +21,13 @@
 
       // This will invoke common/autoinstallers/rush-prettier/node_modules/.bin/pretty-quick
       "shellCommand": "pretty-quick --staged"
+    },{
+      "name": "commitlint",
+      "commandKind": "global",
+      "summary": "Used by the pre-commit Git hook. This command invokes commit lint",
+      "safeForSimultaneousRushProcesses": true,
+      "autoinstallerName": "rush-commitlint",
+      "shellCommand": "commitlint --edit $1"
     }
     // {
     //   /**
